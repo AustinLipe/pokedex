@@ -39,6 +39,7 @@ struct ContentView: View {
         }
         .background(Color.green)
         .cornerRadius(12)
+        .shadow(color: .green, radius: 8, x: 0.0, y: 0.0)
     }
 }
 
